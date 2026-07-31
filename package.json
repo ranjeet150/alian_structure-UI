@@ -4,9 +4,9 @@
   "description": "Beautiful, immersive AI agent marketplace with cosmic UI theme",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "test": "jest --config jest.config.cjs",
     "test:watch": "jest --watch",
